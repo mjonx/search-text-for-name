@@ -12,6 +12,8 @@ for (var i = 0; i < text.length; i++){
     }
 }
 
+var hits = text.match(/Marjon/g);
+
 if (hits.length === 0) {
     console.log("Your name wasn't found!");
 }
